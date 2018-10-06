@@ -4,18 +4,5 @@
         <tab id="kmmx" translate="label" sortOrder="1">
             <label>KMMX</label>
         </tab>
-        <section id="information" translate="label" sortOrder="8888" showInDefault="1" showInWebsite="1" showInStore="1">
-            <label>Information</label>
-            <tab>kmmx</tab>
-            <resource>Kmmx_Core::configuration</resource>
-            <group id="general" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="0" showInStore="0">
-                <label>General Configuration</label>
-                <field id="enable_modules" translate="label comment" type="select" sortOrder="10" showInDefault="1" showInWebsite="0" showInStore="0">
-                    <label>Enable Modules</label>
-                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
-                    <comment>Select No to disable all modules.</comment>
-                </field>
-            </group>
-        </section>
     </system>
 </config>
