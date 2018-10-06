@@ -9,6 +9,7 @@ return [
         'Magento_Customer' => 1,
         'Magento_AdminNotification' => 1,
         'Kmmx_Core' => 1,
+        'Kmmx_GTM' => 1,
         'Magento_Indexer' => 1,
         'Magento_AdvancedPricingImportExport' => 1,
         'Magento_Config' => 1,
