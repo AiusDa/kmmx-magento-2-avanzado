@@ -7,7 +7,7 @@
             <resource>Kmmx_Core::gtm</resource>
             <group id="gtm_configuration" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="0" showInStore="0">
                 <label>GTM Configuration</label>
-                <field id="gtm_id" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="0" showInStore="0">
+                <field id="gtm_id" translate="label comment" type="text" sortOrder="10" showInDefault="1" showInWebsite="0" showInStore="0">
                     <label>GTM ID</label>
                     <comment>Place here your GTM ID</comment>
                 </field>
