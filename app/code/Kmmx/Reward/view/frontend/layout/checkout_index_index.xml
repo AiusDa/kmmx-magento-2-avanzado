@@ -27,6 +27,15 @@
                                                                 </item>
                                                             </item>
                                                         </item>
+                                                        <item name="additional-payment-validators" xsi:type="array">
+                                                            <item name="children" xsi:type="array">
+                                                                <!-- Declare your validation. START -->
+                                                                <item name="your-validator" xsi:type="array">
+                                                                    <item name="component" xsi:type="string">Kmmx_Reward/js/view/payment-validation</item>
+                                                                </item>
+                                                                <!-- Declare your validation. END -->
+                                                            </item>
+                                                        </item>
                                                     </item>
                                                 </item>
                                             </item>
