@@ -1,5 +1,4 @@
 <?php
- 
 namespace Kmmx\Reward\Model;
  
 /**
@@ -7,7 +6,6 @@ namespace Kmmx\Reward\Model;
  */
 class RewardMethod extends \Magento\Payment\Model\Method\AbstractMethod
 {
- 
     /**
      * Payment code
      *
