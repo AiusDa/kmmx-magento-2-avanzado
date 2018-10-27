@@ -22,7 +22,7 @@ class InstallData implements InstallDataInterface
     public function install(ModuleDataSetupInterface $setup, ModuleContextInterface $context)
     {
         $eavSetup = $this->eavSetupFactory->create(['setup' => $setup]);
-        $eavSetup->removeAttribute(\Magento\Customer\Model\Customer::ENTITY, 'customer_attribute');
+        $eavSetup->removeAttribute(Customer::ENTITY, 'reward_points');
         $eavSetup->addAttribute(
             Customer::ENTITY,
             'reward_points',
