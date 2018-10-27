@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="SEO" translate="label" sortOrder="200" showInDefault="1" showInWebsite="1" showInStore="1">
+            <tab>kmmx</tab>
+            <label>SEO</label>
+            <resource>Kmmx_SEO::metas</resource>
+            <group id="seo_metas" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="0" showInStore="0">
+                <label>SEO Metas Configuration</label>
+                <field id="title_prefix" translate="label comment" type="text" sortOrder="10" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>Title Prefix</label>
+                    <comment>Place here your Title Prefix</comment>
+                </field>
+                <field id="title_sufix" translate="label comment" type="text" sortOrder="20" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>Title Sufix</label>
+                    <comment>Place here your Title Sufix</comment>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>

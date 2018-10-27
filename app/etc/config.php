@@ -11,6 +11,7 @@ return [
         'Kmmx_Core' => 1,
         'Kmmx_GTM' => 1,
         'Magento_Config' => 1,
+        'Kmmx_SEO' => 1,
         'Magento_Indexer' => 1,
         'Magento_AdvancedPricingImportExport' => 1,
         'Magento_Backend' => 1,

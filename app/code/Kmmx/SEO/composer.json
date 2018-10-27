@@ -1,0 +1,7 @@
+{
+    "name": "Kmmx/SEO",
+    "autoload": {
+        "psr-4": { "Kmmx\\Reward\\": "" },
+        "files": [ "registration.php" ]
+    }
+}
