@@ -1,4 +1,5 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../lib/internal/Magento/Framework/ObjectManager/etc/config.xsd">
+    <preference for="Magento\Catalog\Model\Product" type="Kmmx\SEO\Model\Catalog\Product" />
     <type name="\Magento\Framework\View\Page\Title">
         <plugin name="Kmmx_SEO_Plugin" type="Kmmx\SEO\Plugin\Title" sortOrder="10" disabled="false"  />
     </type>
